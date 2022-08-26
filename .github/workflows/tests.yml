@@ -3,7 +3,7 @@ on:
   push:
     branches:
       - master
-      - dev
+      - main
 jobs:
   go_get:
     runs-on: ubuntu-latest
