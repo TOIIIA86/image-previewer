@@ -7,7 +7,7 @@ import (
 )
 
 const (
-	ImageURL        = "https://raw.githubusercontent.com/TOIIIA86/image-previewer/master/img_example/"
+	ImageURL        = "https://raw.githubusercontent.com/TOIIIA86/image-previewer/main/img_example/"
 	OriginalImgName = "_gopher_original_1024x504.jpg"
 	ResizedImgName  = "gopher_256x126_resized.jpg"
 )

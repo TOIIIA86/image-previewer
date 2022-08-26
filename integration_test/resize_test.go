@@ -13,7 +13,7 @@ import (
 	"github.com/stretchr/testify/require"
 )
 
-var defaultImgURL = "raw.githubusercontent.com/TOIIIA86/image-previewer/master/img_example/"
+var defaultImgURL = "raw.githubusercontent.com/TOIIIA86/image-previewer/main/img_example/"
 
 func Test_Resize(t *testing.T) {
 	ctx := context.Background()
@@ -53,7 +53,7 @@ func Test_Resize(t *testing.T) {
 		},
 		{
 			name:   "status_bad_gateway_with_not_support_file_case",
-			URL:    "/resize/200/200/raw.githubusercontent.com/TOIIIA86/image-previewer/dev/.env.dist",
+			URL:    "/resize/200/200/" + defaultImgURL + "/dev/.env.dist",
 			Status: http.StatusBadGateway,
 		},
 		{
